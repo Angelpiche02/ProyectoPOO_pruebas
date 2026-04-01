@@ -34,6 +34,17 @@ public class Elemento
     public String getDescripcion(){return descripcion;}
     public String getNivelPrioridad(){return nivelPrioridad;}
 
+    public static void guardarElemento(Elemento e)
+    {
+        elementos.add(e);
+        System.out.println("Elemento creado con exito");
+
+    }
+
+
+
+
+
 
 
 
