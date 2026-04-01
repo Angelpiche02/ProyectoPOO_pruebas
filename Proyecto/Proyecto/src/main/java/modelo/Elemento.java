@@ -41,16 +41,6 @@ public class Elemento
 
     }
 
-    public void mostrarElemento()
-    {
-        System.out.println("Id:" + getId());
-        System.out.println("Titulo:" + getTitulo());
-        System.out.println("Tipo:" + getTipo());
-        System.out.println("Descripcion:" + getDescripcion());
-        System.out.println("NivelPrioridad:" + getNivelPrioridad());
-        System.out.println();
-    }
-
 
     public static void modificarElemento(int id,String nuevotitulo,String nuevadescripcion,String nuevoNivelPrioridad,String nuevafechaExpiracion )
     {
