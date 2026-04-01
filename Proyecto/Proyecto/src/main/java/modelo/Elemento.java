@@ -4,7 +4,7 @@ public class Elemento
 {
     private int id;
     private String titulo;
-    public tipoElemento tipo;
+    public TipoElemento tipo;
     private String descripcion;
     private String nivelPrioridad;
 
@@ -16,11 +16,19 @@ public class Elemento
     {
         this.id = id;
         this.titulo = titulo;
-        this.tipoElemento = tipoElemento;
         this.tipo = tipo;
         this.descripcion = descripcion;
         this.nivelPrioridad = nivelPrioridad;
     }
+
+    public void setId(int id){this.id = id;}
+    public void setTitulo(String titulo){this.titulo = titulo;}
+    public void setTipo(TipoElemento tipo){this.tipo = tipo;}
+    public void setDescripcion(String descripcion){this.descripcion = descripcion;}
+    public void setNivelPrioridad(String nivelPrioridad){this.nivelPrioridad = nivelPrioridad;}
+
+
+
 
 
 
