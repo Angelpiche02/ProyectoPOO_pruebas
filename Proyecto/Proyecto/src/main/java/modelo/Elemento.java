@@ -52,6 +52,26 @@ public class Elemento
     }
 
 
+    public static void modificarElemento(int id,String nuevotitulo,String nuevadescripcion,String nuevoNivelPrioridad,String nuevafechaExpiracion )
+    {
+        for (Elemento e: elementos) {
+
+            if (e.getId() == id) {
+
+                e.setTitulo(nuevotitulo);
+                e.setDescripcion(nuevadescripcion);
+                e.setNivelPrioridad(nuevoNivelPrioridad);
+                System.out.println("Elemento modificado con éxito");
+                return;
+            }
+        }
+
+        System.out.println("Elemento no encontrado");
+    }
+
+}
+
+
     
 
 
