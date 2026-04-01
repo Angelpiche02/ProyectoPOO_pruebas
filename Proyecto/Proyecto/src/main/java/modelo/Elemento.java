@@ -28,6 +28,12 @@ public class Elemento
     public void setNivelPrioridad(String nivelPrioridad){this.nivelPrioridad = nivelPrioridad;}
 
 
+    public int getId(){return id;}
+    public String getTitulo(){return titulo;}
+    public TipoElemento getTipo(){return tipo;}
+    public String getDescripcion(){return descripcion;}
+    public String getNivelPrioridad(){return nivelPrioridad;}
+
 
 
 
